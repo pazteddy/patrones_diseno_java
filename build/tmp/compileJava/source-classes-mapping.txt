@@ -42,7 +42,15 @@ estructurales/bridge/appBridge.java
  estructurales.bridge.appBridge
 estructurales/adapter/appAdapter.java
  estructurales.adapter.appAdapter
+estructurales/composite/ComponentesMenu.java
+ estructurales.composite.ComponentesMenu
+estructurales/composite/Menu.java
+ estructurales.composite.Menu
+estructurales/composite/MenuItem.java
+ estructurales.composite.MenuItem
 Main.java
  Main
 Menu.java
  Menu
+estructurales/composite/appComposite.java
+ estructurales.composite.appComposite
