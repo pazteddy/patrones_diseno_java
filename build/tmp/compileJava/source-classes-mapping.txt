@@ -1,40 +1,48 @@
 creacionales/factorymethod/appFactory.java
  creacionales.factorymethod.appFactory
+estructurales/bridge/EnvioMensaje.java
+ estructurales.bridge.EnvioMensaje
+creacionales/builder/Compra.java
+ creacionales.builder.Compra
+ creacionales.builder.Compra$CompraBuilder
+creacionales/factorymethod/TarjetaCredito.java
+ creacionales.factorymethod.TarjetaCredito
+estructurales/bridge/Mensaje.java
+ estructurales.bridge.Mensaje
+estructurales/bridge/MensajeTexto.java
+ estructurales.bridge.MensajeTexto
+creacionales/builder/appBuilder.java
+ creacionales.builder.appBuilder
+estructurales/bridge/EnvioMensajeEmail.java
+ estructurales.bridge.EnvioMensajeEmail
+estructurales/adapter/DisponibilidadAdapter.java
+ estructurales.adapter.DisponibilidadAdapter
+estructurales/adapter/ObtenerDisponibilidadExterna.java
+ estructurales.adapter.ObtenerDisponibilidadExterna
+creacionales/factorymethod/PagoFactory.java
+ creacionales.factorymethod.PagoFactory
+ creacionales.factorymethod.PagoFactory$1
+estructurales/bridge/MensajeEmail.java
+ estructurales.bridge.MensajeEmail
 creacionales/factorymethod/Efectivo.java
  creacionales.factorymethod.Efectivo
 creacionales/factorymethod/TipoPago.java
  creacionales.factorymethod.TipoPago
 creacionales/singleton/appSingleton.java
  creacionales.singleton.appSingleton
-creacionales/builder/Compra.java
- creacionales.builder.Compra
- creacionales.builder.Compra$CompraBuilder
+estructurales/adapter/MostrarHoteles.java
+ estructurales.adapter.MostrarHoteles
 creacionales/factorymethod/Pago.java
  creacionales.factorymethod.Pago
-creacionales/singleton/coneccionBaseDatos.java
- creacionales.singleton.coneccionBaseDatos
-creacionales/factorymethod/TarjetaCredito.java
- creacionales.factorymethod.TarjetaCredito
-creacionales/factorymethod/PagoFactory.java
- creacionales.factorymethod.PagoFactory
- creacionales.factorymethod.PagoFactory$1
-creacionales/builder/appBuilder.java
- creacionales.builder.appBuilder
-Main.java
- Main
 estructurales/bridge/EnvioMensajeTexto.java
  estructurales.bridge.EnvioMensajeTexto
+creacionales/singleton/coneccionBaseDatos.java
+ creacionales.singleton.coneccionBaseDatos
 estructurales/bridge/appBridge.java
  estructurales.bridge.appBridge
-estructurales/bridge/MensajeTexto.java
- estructurales.bridge.MensajeTexto
-estructurales/bridge/EnvioMensajeEmail.java
- estructurales.bridge.EnvioMensajeEmail
-estructurales/bridge/Mensaje.java
- estructurales.bridge.Mensaje
+estructurales/adapter/appAdapter.java
+ estructurales.adapter.appAdapter
+Main.java
+ Main
 Menu.java
  Menu
-estructurales/bridge/EnvioMensaje.java
- estructurales.bridge.EnvioMensaje
-estructurales/bridge/MensajeEmail.java
- estructurales.bridge.MensajeEmail
