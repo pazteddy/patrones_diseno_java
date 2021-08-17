@@ -62,7 +62,27 @@ comportamiento/visitor/Element.java
  comportamiento.visitor.Element
 comportamiento/visitor/appVisitor.java
  comportamiento.visitor.appVisitor
+comportamiento/state/CompraVerificada.java
+ comportamiento.state.CompraVerificada
+comportamiento/state/CompraCreada.java
+ comportamiento.state.CompraCreada
+comportamiento/state/EstadoCompra.java
+ comportamiento.state.EstadoCompra
+comportamiento/state/NoCompra.java
+ comportamiento.state.NoCompra
+comportamiento/state/CompraCancelada.java
+ comportamiento.state.CompraCancelada
+comportamiento/state/Compra.java
+ comportamiento.state.Compra
+comportamiento/state/CompraAnulada.java
+ comportamiento.state.CompraAnulada
+comportamiento/state/CompraEspera.java
+ comportamiento.state.CompraEspera
+comportamiento/state/Menu.java
+ comportamiento.state.Menu
 Main.java
  Main
+comportamiento/state/appState.java
+ comportamiento.state.appState
 Menu.java
  Menu

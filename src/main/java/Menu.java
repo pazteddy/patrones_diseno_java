@@ -1,3 +1,4 @@
+import comportamiento.state.appState;
 import comportamiento.visitor.appVisitor;
 import creacionales.builder.appBuilder;
 import creacionales.factorymethod.appFactory;
@@ -16,6 +17,7 @@ public class Menu {
     appAdapter adapter = new appAdapter();
     appComposite composite = new appComposite();
     appVisitor visitor = new appVisitor();
+    appState state = new appState();
     public void display() {
         Scanner scanner = new Scanner(System.in);
         char opcion;
@@ -32,6 +34,7 @@ public class Menu {
                 "6) Menus dinamicos(Composite)\n" +
                 "------Patrones de comportamiento-----\n" +
                 "7) Calculo Total de Ventas(Visitor)\n" +
+                "8) Compra de Pasaje Aereo(State)\n" +
                 "s) salir";
 
         while (true) {
@@ -46,6 +49,7 @@ public class Menu {
                 case '5': adapter.displayAdapter(); break;
                 case '6': composite.displayComposite(); break;
                 case '7': visitor.displayVisitor(); break;
+                case '8': state.displayState(); break;
                 case 's': System.out.println("Hasta pronto, gracias por su visita!"); System.exit(0);
                 default: System.out.println("Opcion no válida");
             }
