@@ -1,3 +1,4 @@
+import comportamiento.visitor.appVisitor;
 import creacionales.builder.appBuilder;
 import creacionales.factorymethod.appFactory;
 import creacionales.singleton.appSingleton;
@@ -14,18 +15,24 @@ public class Menu {
     appBridge bridge = new appBridge();
     appAdapter adapter = new appAdapter();
     appComposite composite = new appComposite();
+    appVisitor visitor = new appVisitor();
     public void display() {
         Scanner scanner = new Scanner(System.in);
         char opcion;
         System.out.println("Patrones de diseño");
         System.out.println("-------------------------------------------");
-        String mensajeOpciones = "\nRealizar:\n " +
+        String mensajeOpciones = "\nRealizar:\n" +
                 "------Patrones creacionales-----\n" +
-                "1) Conexion base de datos(singleton)\n 2) Compras(Builder)\n 3) Pagos(FactoryMethod)\n " +
+                "1) Conexion base de datos(singleton)\n" +
+                "2) Compras(Builder)\n" +
+                "3) Pagos(FactoryMethod)\n" +
                 "------Patrones estructurales-----\n" +
-                "4) Envio Comprobantes(Bridge)\n " +
+                "4) Envio Comprobantes(Bridge)\n"+
                 "5) Nuevo conector Hotels Disponibles(Adapter)\n" +
-                "6) Menus dinamicos(Composite)\n s) salir";
+                "6) Menus dinamicos(Composite)\n" +
+                "------Patrones de comportamiento-----\n" +
+                "7) Calculo Total de Ventas(Visitor)\n" +
+                "s) salir";
 
         while (true) {
             System.out.println(mensajeOpciones);
@@ -38,6 +45,7 @@ public class Menu {
                 case '4': bridge.displayBridge(); break;
                 case '5': adapter.displayAdapter(); break;
                 case '6': composite.displayComposite(); break;
+                case '7': visitor.displayVisitor(); break;
                 case 's': System.out.println("Hasta pronto, gracias por su visita!"); System.exit(0);
                 default: System.out.println("Opcion no válida");
             }

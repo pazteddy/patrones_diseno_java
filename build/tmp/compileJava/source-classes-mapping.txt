@@ -48,9 +48,21 @@ estructurales/composite/Menu.java
  estructurales.composite.Menu
 estructurales/composite/MenuItem.java
  estructurales.composite.MenuItem
+comportamiento/visitor/CalcularPrecioVisitor.java
+ comportamiento.visitor.CalcularPrecioVisitor
+comportamiento/visitor/Visitor.java
+ comportamiento.visitor.Visitor
+estructurales/composite/appComposite.java
+ estructurales.composite.appComposite
+comportamiento/visitor/Vuelo.java
+ comportamiento.visitor.Vuelo
+comportamiento/visitor/Hotel.java
+ comportamiento.visitor.Hotel
+comportamiento/visitor/Element.java
+ comportamiento.visitor.Element
+comportamiento/visitor/appVisitor.java
+ comportamiento.visitor.appVisitor
 Main.java
  Main
 Menu.java
  Menu
-estructurales/composite/appComposite.java
- estructurales.composite.appComposite
